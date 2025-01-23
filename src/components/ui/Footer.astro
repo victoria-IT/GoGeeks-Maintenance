@@ -1,0 +1,27 @@
+---
+import Container from "./Container.astro"
+---
+<footer class="bg-lime-400 bg-fixed bg-bottom text-black">
+    <Container>
+    <div class="py-6">
+        <div class="flex flex-col items-center justify-between md:flex-row">
+            <div class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span
+                >Copyright © 2025 <a href="https://maintenance.gogeeks.au/">GoGeeks</a> Pty Limited. | ABN: 87 676 130 279 
+                </span
+                >&nbsp
+            </div>
+            <div class="flex mt-4 md:m-0">
+                <div class="-mx-4">
+                    @ <span id="currentYear"></span> Site by <a href="https://www.victoriait.com.au" target="_blank" rel="noopener noreferrer" class="underline">Victoria IT</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </Container>
+</footer>
+
+<script is:inline>
+    const year = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = `${year}`;
+</script>
