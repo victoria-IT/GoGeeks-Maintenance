@@ -34,4 +34,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Contact Us
 
-Ready to take your business to new heights with reliable IT support? Contact GoGeeks.AU today for a free consultation. Feel free to check [Call](tel:1300123457) or visit [GoGeeks Web](https://www.gogeeks.au).
+Ready to take your business to new heights with reliable IT support? Contact GoGeeks.AU today for a free consultation. Call us now on [1300 123 457](tel:1300123457) or visit [GoGeeks Web](https://www.gogeeks.au).
