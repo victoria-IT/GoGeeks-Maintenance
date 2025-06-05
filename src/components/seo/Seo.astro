@@ -37,7 +37,7 @@ const jsonLD = jsonLDGenerator({
 <link rel="canonical" href={url} />
 
 <!-- Open Graph -->
-<meta property="og:site_name" content="GoGeeks.AU" />
+<meta property="og:site_name" content="GoGeeks" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={url} />
@@ -61,8 +61,6 @@ const jsonLD = jsonLDGenerator({
 
 <!-- Using environment domain -->
 <meta name="twitter:domain" content={import.meta.env.SITE} />
-
-{robots && <meta name="robots" content="noindex, nofollow" />}
 
 <!-- JSON LD -->
 <Fragment set:html={jsonLD} />
